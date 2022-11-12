@@ -29,7 +29,17 @@ Berikut adalah persyaratan **minimum** untuk menjalankan node Aleo:
 wget -O prover.sh https://raw.githubusercontent.com/bangpateng/Aleo-Prover/main/prover.sh && chmod +x prover.sh && ./prover.sh
 ```
 
-Biarkan Instalisasi Selesai dan Jangan Lupa Backup Semua Data Kalian Yang Muncul, Setelah Instalisasi Otomatis
+Biarkan Instalisasi Selesai Lama Kudu Sabar
+
+# Create Account
+
+```
+cd
+cd snarkOS
+snarkos account new
+```
+
+Jangan Lupa Backup Semua Data Kalian Yang Muncul, Setelah Instalisasi Otomatis
 
 # Run Prover
 
@@ -42,3 +52,11 @@ screen -r prover
 ```
 - `ctrl A D` untuk Menyimpan Screen Agar Jalan di Background Pc Kalian
 - Masukan Private Key Yang Sudah Kalian Backup Sebelumnya. Jika anda Ingin Kembali ke Screen Yang Sedang Jalan, Gunakan Perintah `screen -Rd prover`
+
+## Uninstal (Gunakan Jika Mau Menghapus Data Node)
+
+```
+rustup self uninstall
+rm -rf prover.sh
+rm -rf snarkOS
+```
