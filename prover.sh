@@ -46,5 +46,3 @@ echo -e "\e[1m\e[32m7. Create Account Aleo Prover... \e[0m" && sleep 1
 snarkos account new
 
 echo '=============== SETUP FINISHED ==================='
-
-echo '=============== SETUP FINISHED ==================='
