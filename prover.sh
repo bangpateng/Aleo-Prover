@@ -40,6 +40,13 @@ cd snarkOS
 ./build_ubuntu.sh
 
 echo -e "\e[1m\e[32m6. Cargo Path Install... \e[0m" && sleep 1
+apt install cargo
+curl https://sh.rustup.rs -sSf | sh
+source "$HOME/.cargo/env"
+cargo install cargo --force
 cargo install --path .
 
-echo '=============== SETUP FINISHED ==================='
+echo -e "\e[1m\e[32m7. Create Account Aleo Prover... \e[0m" && sleep 1
+snarkos account new
+
+echo '=============== SETUP FINISHED BACKUP SEMUA DATA KALIAN, SIMPAN BAE BAE==================='
