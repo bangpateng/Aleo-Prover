@@ -31,14 +31,6 @@ wget -O prover.sh https://raw.githubusercontent.com/bangpateng/Aleo-Prover/main/
 
 Biarkan Instalisasi Selesai Lama Kudu Sabar
 
-# Create Wallet Account
-
-```
-snarkos account new
-```
-
-Jangan Lupa Backup Semua Data Wallet Kalian Yang Muncul,
-
 # Run Prover
 
 ```
