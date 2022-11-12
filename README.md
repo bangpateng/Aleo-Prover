@@ -29,17 +29,7 @@ Berikut adalah persyaratan **minimum** untuk menjalankan node Aleo:
 wget -O prover.sh https://raw.githubusercontent.com/bangpateng/Aleo-Prover/main/prover.sh && chmod +x prover.sh && ./prover.sh
 ```
 
-Biarkan Instalisasi Selesai Lama Kudu Sabar
-
-# Create Account
-
-```
-cd
-cd snarkOS
-snarkos account new
-```
-
-Jangan Lupa Backup Semua Data Kalian Yang Muncul, Setelah Instalisasi Otomatis
+Biarkan Instalisasi Selesai Lama Kudu Sabar dan Jangan Lupa Backup Semua Data Kalian Yang Muncul, Setelah Instalisasi Otomatis
 
 # Run Prover
 
