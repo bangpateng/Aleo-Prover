@@ -34,6 +34,7 @@ Biarkan Instalisasi Selesai Lama Kudu Sabar dan Jangan Lupa Backup Semua Data Ka
 # Run Prover
 
 ```
+cd snarkOS
 screen -r prover
 ```
 
