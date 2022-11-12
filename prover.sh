@@ -44,5 +44,3 @@ cargo install --path .
 
 echo -e "\e[1m\e[32m2. Run Aleo Prover... \e[0m" && sleep 1
 snarkos account new
-
-echo '=============== SETUP FINISH BANG SIMPAN DATA DI ATAS PRIVATE KEY DAN LAINNYA ==================='&& sleep 1
