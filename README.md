@@ -35,14 +35,15 @@ Biarkan Instalisasi Selesai Lama Kudu Sabar dan Jangan Lupa Backup Semua Data Ka
 
 ```
 cd snarkOS
-screen -r prover
+screen -R prover
 ```
 
 ```
 ./run-prover.sh
 ```
+- Masukan Private Key Yang Sudah Kalian Backup Sebelumnya dan Diamkan Hingga Selesai. 
 - `ctrl A D` untuk Menyimpan Screen Agar Jalan di Background Pc Kalian
-- Masukan Private Key Yang Sudah Kalian Backup Sebelumnya. Jika anda Ingin Kembali ke Screen Yang Sedang Jalan, Gunakan Perintah `screen -Rd prover`
+- Jika anda Ingin Kembali ke Screen Yang Sedang Jalan, Gunakan Perintah `screen -Rd prover`
 
 ## Uninstal (Gunakan Jika Mau Menghapus Data Node)
 
